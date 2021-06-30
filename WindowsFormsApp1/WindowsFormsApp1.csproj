@@ -152,6 +152,9 @@
     <EmbeddedResource Include="FORMULARIOS\FacturaCompra.resx">
       <DependentUpon>FacturaCompra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORMULARIOS\FacturaVenta.resx">
+      <DependentUpon>FacturaVenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORMULARIOS\Habitacion.resx">
       <DependentUpon>Habitacion.cs</DependentUpon>
     </EmbeddedResource>
