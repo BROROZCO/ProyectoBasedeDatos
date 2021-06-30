@@ -139,5 +139,26 @@ namespace WindowsFormsApp1.FORMULARIOS
             }
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string ID = txtNumeroFactura.Text;
+
+            if (ID.Equals(""))
+            {
+                MessageBox.Show("Seleccione Nuevamente el registro", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            else
+            {
+                Conexion.Conectar();
+                string eliminar = "DELETE FROM FacturaCompra WHERE NumFacturaCompra = @NumFacturaCompra";
+                SqlCommand cmd3 = new SqlCommand(eliminar, Conexion.Conectar());
+                cmd3.Parameters.AddWithValue("@NumFacturaCompra", ID);
+                cmd3.ExecuteNonQuery();
+                datagridFacturaCompra.DataSource = llenar_Grid();
+                MessageBox.Show("Registro eliminado");
+            }
+        }
     }
 }
