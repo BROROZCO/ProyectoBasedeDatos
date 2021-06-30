@@ -1,0 +1,14 @@
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Cliente.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Empledo.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.FacturaCompra.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Habitacion.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Pago.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Producto.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Proveedor.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Puesto.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.REPORTES.REPORTE1.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
