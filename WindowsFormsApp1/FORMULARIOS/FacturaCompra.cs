@@ -102,6 +102,7 @@ namespace WindowsFormsApp1.FORMULARIOS
             }
         }
 
+        // UPDATE
         private void button2_Click(object sender, EventArgs e)
         {
             string NumFacturaCompra = txtNumeroFactura.Text;
