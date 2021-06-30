@@ -115,7 +115,7 @@ namespace WindowsFormsApp1
 
         private void reporteDeVentasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Aqui irian los repostes Crack");
         }
     }
 }
