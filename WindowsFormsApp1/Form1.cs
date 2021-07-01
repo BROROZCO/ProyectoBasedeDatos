@@ -15,8 +15,30 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        string user = "";
+        string pass = "";
+        string estado = "";
+        string puesto = "";
+
+        public Form1(string u, string p, string e, string t)
         {
+            this.user = u;
+            this.pass = p;
+            this.estado = e;
+            this.puesto = t;
+
+            if(puesto.Equals("9"))
+            {
+                MessageBox.Show("Permisos de Administrador");
+            }
+            else if(puesto.Equals("10"))
+            {
+                MessageBox.Show("Permisos de Reporteria de Datos");
+            }
+            else
+            {
+                MessageBox.Show("Permisos de Recepcionista");
+            }
             InitializeComponent();
         }
 

@@ -52,8 +52,10 @@ namespace WindowsFormsApp1
                     estado = dt.Rows[0][2].ToString();
                     puesto = dt.Rows[0][3].ToString();
 
-                    MessageBox.Show("Usuario: "+ user + " pass: "+pass+" Estado: "+estado+ " ID PUESTO: "+puesto);
-
+                    // MessageBox.Show("Usuario: "+ user + " pass: "+pass+" Estado: "+estado+ " ID PUESTO: "+puesto);
+                    Form1 form1 = new Form1(user,pass,estado,puesto);
+                    form1.Show();
+                    this.Hide();
                 }
                 else
                 {
