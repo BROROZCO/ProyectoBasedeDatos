@@ -40,3 +40,4 @@ C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\Wind
 C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.DetalleVenta.resources
 C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.Insumo.resources
 C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FORMULARIOS.FacturaVenta.resources
+C:\Users\Bryan Orozco\Desktop\Base de Datos LAB3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
