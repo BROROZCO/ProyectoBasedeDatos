@@ -143,5 +143,14 @@ namespace WindowsFormsApp1.FORMULARIOS
             }
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtProvedor.Text = "";
+            txtNombreEmpresa.Text = "";
+            txtTelefono.Text = "";
+            txtDireccion.Text = "";
+            txtNombreEncargado.Text = "";
+        }
     }
 }

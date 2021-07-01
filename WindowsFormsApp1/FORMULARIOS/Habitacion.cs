@@ -139,5 +139,14 @@ namespace WindowsFormsApp1.FORMULARIOS
 
             }
         }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            txtIdCliente.Text = "";
+            txtNumHabitacion.Text = "";
+            txtPrecioHabitacionCB.Text = "";
+            txtTipoHabitacionCB.Text = "";
+
+        }
     }
 }

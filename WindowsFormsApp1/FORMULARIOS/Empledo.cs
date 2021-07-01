@@ -234,5 +234,21 @@ namespace WindowsFormsApp1.FORMULARIOS
                 datadridEmpleados.DataSource = llenar_Grid();
             }
         }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            txtCodigoEmpleado.Text = "";
+            txtCodigoPuesto.Text = "";
+            txtSexoCB.Text = "";
+            txtEdad.Text = "";
+            txtfecha.Text = "";
+            txTelefono.Text = "";
+            txtUsuario.Text = "";
+            txtpassword.Text = "";
+            txtNombrePrimero.Text = "";
+            txtNombreSegundo.Text = ""; ;
+            txtApellidoPrimero.Text = "";
+            txtApellidoSegundo.Text = "";
+        }
     }
 }

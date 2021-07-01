@@ -35,6 +35,8 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtPrecioHabitacionCB = new System.Windows.Forms.ComboBox();
+            this.txtTipoHabitacionCB = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,8 +44,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.txtIdCliente = new System.Windows.Forms.TextBox();
             this.txtNumHabitacion = new System.Windows.Forms.TextBox();
             this.dataGridHabitacion = new System.Windows.Forms.DataGridView();
-            this.txtTipoHabitacionCB = new System.Windows.Forms.ComboBox();
-            this.txtPrecioHabitacionCB = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridHabitacion)).BeginInit();
@@ -71,6 +71,7 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnbuscar.TabIndex = 5;
             this.btnbuscar.Text = "BUSCAR";
             this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // btnEliminar
             // 
@@ -118,6 +119,28 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS";
+            // 
+            // txtPrecioHabitacionCB
+            // 
+            this.txtPrecioHabitacionCB.FormattingEnabled = true;
+            this.txtPrecioHabitacionCB.Items.AddRange(new object[] {
+            "500",
+            "400"});
+            this.txtPrecioHabitacionCB.Location = new System.Drawing.Point(351, 136);
+            this.txtPrecioHabitacionCB.Name = "txtPrecioHabitacionCB";
+            this.txtPrecioHabitacionCB.Size = new System.Drawing.Size(383, 21);
+            this.txtPrecioHabitacionCB.TabIndex = 9;
+            // 
+            // txtTipoHabitacionCB
+            // 
+            this.txtTipoHabitacionCB.FormattingEnabled = true;
+            this.txtTipoHabitacionCB.Items.AddRange(new object[] {
+            "Cabaña",
+            "Casa de Campaña"});
+            this.txtTipoHabitacionCB.Location = new System.Drawing.Point(351, 99);
+            this.txtTipoHabitacionCB.Name = "txtTipoHabitacionCB";
+            this.txtTipoHabitacionCB.Size = new System.Drawing.Size(383, 21);
+            this.txtTipoHabitacionCB.TabIndex = 8;
             // 
             // label4
             // 
@@ -179,28 +202,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.dataGridHabitacion.Size = new System.Drawing.Size(776, 178);
             this.dataGridHabitacion.TabIndex = 0;
             this.dataGridHabitacion.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridHabitacion_CellContentClick);
-            // 
-            // txtTipoHabitacionCB
-            // 
-            this.txtTipoHabitacionCB.FormattingEnabled = true;
-            this.txtTipoHabitacionCB.Items.AddRange(new object[] {
-            "Cabaña",
-            "Casa de Campaña"});
-            this.txtTipoHabitacionCB.Location = new System.Drawing.Point(351, 99);
-            this.txtTipoHabitacionCB.Name = "txtTipoHabitacionCB";
-            this.txtTipoHabitacionCB.Size = new System.Drawing.Size(383, 21);
-            this.txtTipoHabitacionCB.TabIndex = 8;
-            // 
-            // txtPrecioHabitacionCB
-            // 
-            this.txtPrecioHabitacionCB.FormattingEnabled = true;
-            this.txtPrecioHabitacionCB.Items.AddRange(new object[] {
-            "500",
-            "400"});
-            this.txtPrecioHabitacionCB.Location = new System.Drawing.Point(351, 136);
-            this.txtPrecioHabitacionCB.Name = "txtPrecioHabitacionCB";
-            this.txtPrecioHabitacionCB.Size = new System.Drawing.Size(383, 21);
-            this.txtPrecioHabitacionCB.TabIndex = 9;
             // 
             // Habitacion
             // 

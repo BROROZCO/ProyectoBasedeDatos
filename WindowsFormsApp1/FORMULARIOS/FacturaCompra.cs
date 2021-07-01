@@ -161,5 +161,16 @@ namespace WindowsFormsApp1.FORMULARIOS
                 MessageBox.Show("Registro eliminado");
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtNumeroFactura.Text = "";
+            txtCodigoEmpleado.Text = "";
+            txtDetalleCompra.Text = "";
+            txtYEAR.Text = "";
+            txtMES.Text = "";
+            txtDIA.Text = "";
+
+        }
     }
 }

@@ -141,5 +141,13 @@ namespace WindowsFormsApp1.FORMULARIOS
                 MessageBox.Show("Registro eliminado");
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtId.Text = "" ;
+            txtNombre.Text = "" ;
+            txtApellido.Text ="" ;
+            txtCedula.Text ="" ;
+        }
     }
 }

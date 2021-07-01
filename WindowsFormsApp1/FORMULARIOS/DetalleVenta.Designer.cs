@@ -73,6 +73,7 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnNuevo.TabIndex = 5;
             this.btnNuevo.Text = "NUEVO";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnEliminar
             // 

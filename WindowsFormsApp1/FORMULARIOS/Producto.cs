@@ -288,5 +288,15 @@ namespace WindowsFormsApp1.FORMULARIOS
 
 
         }
+
+        private void BTNACTULIZAR_Click(object sender, EventArgs e)
+        {
+            ID_Global = "";
+            nombre = "";
+            txtId.Text = "";
+            txtNombreProducto.Text = "";
+            txtPrecioProducto.Text = "";
+            cmbTipoProducto.Text = "";
+        }
     }
 }

@@ -35,6 +35,7 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.DATOS = new System.Windows.Forms.GroupBox();
+            this.txtSexoCB = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.txtApellidoSegundo = new System.Windows.Forms.TextBox();
             this.txtEstadoCB = new System.Windows.Forms.ComboBox();
@@ -61,7 +62,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.txtpassword = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.datadridEmpleados = new System.Windows.Forms.DataGridView();
-            this.txtSexoCB = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.DATOS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datadridEmpleados)).BeginInit();
@@ -89,6 +89,7 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnNuevo.TabIndex = 5;
             this.btnNuevo.Text = "NUEVO";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnEliminar
             // 
@@ -154,6 +155,17 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.DATOS.TabIndex = 1;
             this.DATOS.TabStop = false;
             this.DATOS.Text = "DATOS";
+            // 
+            // txtSexoCB
+            // 
+            this.txtSexoCB.FormattingEnabled = true;
+            this.txtSexoCB.Items.AddRange(new object[] {
+            "M",
+            "F"});
+            this.txtSexoCB.Location = new System.Drawing.Point(161, 101);
+            this.txtSexoCB.Name = "txtSexoCB";
+            this.txtSexoCB.Size = new System.Drawing.Size(232, 21);
+            this.txtSexoCB.TabIndex = 27;
             // 
             // label13
             // 
@@ -369,17 +381,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.datadridEmpleados.Size = new System.Drawing.Size(874, 201);
             this.datadridEmpleados.TabIndex = 0;
             this.datadridEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datadridEmpleados_CellContentClick);
-            // 
-            // txtSexoCB
-            // 
-            this.txtSexoCB.FormattingEnabled = true;
-            this.txtSexoCB.Items.AddRange(new object[] {
-            "M",
-            "F"});
-            this.txtSexoCB.Location = new System.Drawing.Point(161, 101);
-            this.txtSexoCB.Name = "txtSexoCB";
-            this.txtSexoCB.Size = new System.Drawing.Size(232, 21);
-            this.txtSexoCB.TabIndex = 27;
             // 
             // Empledo
             // 

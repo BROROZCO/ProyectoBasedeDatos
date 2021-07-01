@@ -31,6 +31,10 @@ namespace WindowsFormsApp1.FORMULARIOS
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtDIA = new System.Windows.Forms.TextBox();
+            this.txtMES = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,10 +48,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnModificar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.datagridFacturaCompra = new System.Windows.Forms.DataGridView();
-            this.txtMES = new System.Windows.Forms.TextBox();
-            this.txtDIA = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagridFacturaCompra)).BeginInit();
@@ -87,6 +87,44 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(676, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(15, 24);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "/";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(592, 117);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(15, 24);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "/";
+            // 
+            // txtDIA
+            // 
+            this.txtDIA.Location = new System.Drawing.Point(697, 117);
+            this.txtDIA.Name = "txtDIA";
+            this.txtDIA.Size = new System.Drawing.Size(57, 20);
+            this.txtDIA.TabIndex = 9;
+            this.txtDIA.Text = "dd";
+            this.txtDIA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtMES
+            // 
+            this.txtMES.Location = new System.Drawing.Point(613, 117);
+            this.txtMES.Name = "txtMES";
+            this.txtMES.Size = new System.Drawing.Size(57, 20);
+            this.txtMES.TabIndex = 8;
+            this.txtMES.Text = "mm";
+            this.txtMES.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -162,6 +200,7 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.button4.TabIndex = 4;
             this.button4.Text = "NUEVO";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -202,44 +241,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.datagridFacturaCompra.Size = new System.Drawing.Size(776, 184);
             this.datagridFacturaCompra.TabIndex = 0;
             this.datagridFacturaCompra.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridFacturaCompra_CellContentClick);
-            // 
-            // txtMES
-            // 
-            this.txtMES.Location = new System.Drawing.Point(613, 117);
-            this.txtMES.Name = "txtMES";
-            this.txtMES.Size = new System.Drawing.Size(57, 20);
-            this.txtMES.TabIndex = 8;
-            this.txtMES.Text = "mm";
-            this.txtMES.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtDIA
-            // 
-            this.txtDIA.Location = new System.Drawing.Point(697, 117);
-            this.txtDIA.Name = "txtDIA";
-            this.txtDIA.Size = new System.Drawing.Size(57, 20);
-            this.txtDIA.TabIndex = 9;
-            this.txtDIA.Text = "dd";
-            this.txtDIA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(592, 117);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(15, 24);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "/";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(676, 116);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(15, 24);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "/";
             // 
             // FacturaCompra
             // 

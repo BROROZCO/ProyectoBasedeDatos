@@ -30,27 +30,27 @@ namespace WindowsFormsApp1.FORMULARIOS
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.datagridFacturaVenta = new System.Windows.Forms.DataGridView();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnlimpiar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtIdEmpledo = new System.Windows.Forms.TextBox();
-            this.txtNumFacturaVenta = new System.Windows.Forms.TextBox();
-            this.txtIdDetalleVenta = new System.Windows.Forms.TextBox();
-            this.txtFecha = new System.Windows.Forms.TextBox();
-            this.txtIdCliente = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txtTipoVenta = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtTipoVenta = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtIdCliente = new System.Windows.Forms.TextBox();
+            this.txtIdDetalleVenta = new System.Windows.Forms.TextBox();
+            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.txtNumFacturaVenta = new System.Windows.Forms.TextBox();
+            this.txtIdEmpledo = new System.Windows.Forms.TextBox();
+            this.btnlimpiar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.datagridFacturaVenta = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.datagridFacturaVenta)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.datagridFacturaVenta)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -66,55 +66,6 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
             this.panel1.TabIndex = 0;
-            // 
-            // datagridFacturaVenta
-            // 
-            this.datagridFacturaVenta.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.datagridFacturaVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagridFacturaVenta.Location = new System.Drawing.Point(12, 200);
-            this.datagridFacturaVenta.Name = "datagridFacturaVenta";
-            this.datagridFacturaVenta.Size = new System.Drawing.Size(776, 185);
-            this.datagridFacturaVenta.TabIndex = 0;
-            this.datagridFacturaVenta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridFacturaVenta_CellContentClick);
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(12, 401);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(101, 37);
-            this.btnAgregar.TabIndex = 1;
-            this.btnAgregar.Text = "AGREGAR";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // btnModificar
-            // 
-            this.btnModificar.Location = new System.Drawing.Point(231, 401);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(101, 37);
-            this.btnModificar.TabIndex = 2;
-            this.btnModificar.Text = "MODIFICAR";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Location = new System.Drawing.Point(437, 401);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(101, 37);
-            this.btnEliminar.TabIndex = 3;
-            this.btnEliminar.Text = "ELIMIAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
-            // 
-            // btnlimpiar
-            // 
-            this.btnlimpiar.Location = new System.Drawing.Point(687, 401);
-            this.btnlimpiar.Name = "btnlimpiar";
-            this.btnlimpiar.Size = new System.Drawing.Size(101, 37);
-            this.btnlimpiar.TabIndex = 4;
-            this.btnlimpiar.Text = "Nuevo";
-            this.btnlimpiar.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -137,77 +88,16 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS";
             // 
-            // txtIdEmpledo
+            // txtTipoVenta
             // 
-            this.txtIdEmpledo.Location = new System.Drawing.Point(496, 19);
-            this.txtIdEmpledo.Name = "txtIdEmpledo";
-            this.txtIdEmpledo.Size = new System.Drawing.Size(268, 20);
-            this.txtIdEmpledo.TabIndex = 0;
-            // 
-            // txtNumFacturaVenta
-            // 
-            this.txtNumFacturaVenta.Location = new System.Drawing.Point(122, 19);
-            this.txtNumFacturaVenta.Name = "txtNumFacturaVenta";
-            this.txtNumFacturaVenta.Size = new System.Drawing.Size(268, 20);
-            this.txtNumFacturaVenta.TabIndex = 1;
-            // 
-            // txtIdDetalleVenta
-            // 
-            this.txtIdDetalleVenta.Location = new System.Drawing.Point(122, 81);
-            this.txtIdDetalleVenta.Name = "txtIdDetalleVenta";
-            this.txtIdDetalleVenta.Size = new System.Drawing.Size(268, 20);
-            this.txtIdDetalleVenta.TabIndex = 3;
-            // 
-            // txtFecha
-            // 
-            this.txtFecha.Enabled = false;
-            this.txtFecha.Location = new System.Drawing.Point(496, 81);
-            this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(268, 20);
-            this.txtFecha.TabIndex = 2;
-            // 
-            // txtIdCliente
-            // 
-            this.txtIdCliente.Location = new System.Drawing.Point(122, 142);
-            this.txtIdCliente.Name = "txtIdCliente";
-            this.txtIdCliente.Size = new System.Drawing.Size(268, 20);
-            this.txtIdCliente.TabIndex = 5;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Codigo Venta";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(396, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Codigo Empleado";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(396, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Fecha Venta";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 88);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Codigo Detalle Venta";
+            this.txtTipoVenta.FormattingEnabled = true;
+            this.txtTipoVenta.Items.AddRange(new object[] {
+            "Comida",
+            "Bebida"});
+            this.txtTipoVenta.Location = new System.Drawing.Point(496, 140);
+            this.txtTipoVenta.Name = "txtTipoVenta";
+            this.txtTipoVenta.Size = new System.Drawing.Size(268, 21);
+            this.txtTipoVenta.TabIndex = 12;
             // 
             // label5
             // 
@@ -227,16 +117,127 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.label6.TabIndex = 10;
             this.label6.Text = "Codigo Cliente";
             // 
-            // txtTipoVenta
+            // label3
             // 
-            this.txtTipoVenta.FormattingEnabled = true;
-            this.txtTipoVenta.Items.AddRange(new object[] {
-            "Comida",
-            "Bebida"});
-            this.txtTipoVenta.Location = new System.Drawing.Point(496, 140);
-            this.txtTipoVenta.Name = "txtTipoVenta";
-            this.txtTipoVenta.Size = new System.Drawing.Size(268, 21);
-            this.txtTipoVenta.TabIndex = 12;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(396, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Fecha Venta";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(107, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Codigo Detalle Venta";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(396, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(90, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Codigo Empleado";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Codigo Venta";
+            // 
+            // txtIdCliente
+            // 
+            this.txtIdCliente.Location = new System.Drawing.Point(122, 142);
+            this.txtIdCliente.Name = "txtIdCliente";
+            this.txtIdCliente.Size = new System.Drawing.Size(268, 20);
+            this.txtIdCliente.TabIndex = 5;
+            // 
+            // txtIdDetalleVenta
+            // 
+            this.txtIdDetalleVenta.Location = new System.Drawing.Point(122, 81);
+            this.txtIdDetalleVenta.Name = "txtIdDetalleVenta";
+            this.txtIdDetalleVenta.Size = new System.Drawing.Size(268, 20);
+            this.txtIdDetalleVenta.TabIndex = 3;
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.Enabled = false;
+            this.txtFecha.Location = new System.Drawing.Point(496, 81);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(268, 20);
+            this.txtFecha.TabIndex = 2;
+            // 
+            // txtNumFacturaVenta
+            // 
+            this.txtNumFacturaVenta.Location = new System.Drawing.Point(122, 19);
+            this.txtNumFacturaVenta.Name = "txtNumFacturaVenta";
+            this.txtNumFacturaVenta.Size = new System.Drawing.Size(268, 20);
+            this.txtNumFacturaVenta.TabIndex = 1;
+            // 
+            // txtIdEmpledo
+            // 
+            this.txtIdEmpledo.Location = new System.Drawing.Point(496, 19);
+            this.txtIdEmpledo.Name = "txtIdEmpledo";
+            this.txtIdEmpledo.Size = new System.Drawing.Size(268, 20);
+            this.txtIdEmpledo.TabIndex = 0;
+            // 
+            // btnlimpiar
+            // 
+            this.btnlimpiar.Location = new System.Drawing.Point(687, 401);
+            this.btnlimpiar.Name = "btnlimpiar";
+            this.btnlimpiar.Size = new System.Drawing.Size(101, 37);
+            this.btnlimpiar.TabIndex = 4;
+            this.btnlimpiar.Text = "Nuevo";
+            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(437, 401);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(101, 37);
+            this.btnEliminar.TabIndex = 3;
+            this.btnEliminar.Text = "ELIMIAR";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(231, 401);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(101, 37);
+            this.btnModificar.TabIndex = 2;
+            this.btnModificar.Text = "MODIFICAR";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(12, 401);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(101, 37);
+            this.btnAgregar.TabIndex = 1;
+            this.btnAgregar.Text = "AGREGAR";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // datagridFacturaVenta
+            // 
+            this.datagridFacturaVenta.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.datagridFacturaVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagridFacturaVenta.Location = new System.Drawing.Point(12, 200);
+            this.datagridFacturaVenta.Name = "datagridFacturaVenta";
+            this.datagridFacturaVenta.Size = new System.Drawing.Size(776, 185);
+            this.datagridFacturaVenta.TabIndex = 0;
+            this.datagridFacturaVenta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridFacturaVenta_CellContentClick);
             // 
             // FacturaVenta
             // 
@@ -248,9 +249,9 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.Text = "FacturaVenta";
             this.Load += new System.EventHandler(this.FacturaVenta_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.datagridFacturaVenta)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.datagridFacturaVenta)).EndInit();
             this.ResumeLayout(false);
 
         }

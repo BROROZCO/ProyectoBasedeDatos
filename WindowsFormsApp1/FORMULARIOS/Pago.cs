@@ -132,5 +132,13 @@ namespace WindowsFormsApp1.FORMULARIOS
             }
 
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            txtpago.Text = "";
+            txtTipoMonedaCB.Text = "";
+            txtTipoPagoCB.Text = "";
+
+        }
     }
 }

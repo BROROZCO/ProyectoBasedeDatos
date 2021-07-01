@@ -67,8 +67,9 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(92, 33);
             this.btnBuscar.TabIndex = 5;
-            this.btnBuscar.Text = "BUSCAR";
+            this.btnBuscar.Text = "NUEVO";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnEliminar
             // 

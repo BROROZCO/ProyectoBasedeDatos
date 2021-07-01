@@ -138,5 +138,16 @@ namespace WindowsFormsApp1.FORMULARIOS
             }
 
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txtNumFacturaVenta.Text = "";
+            txtIdDetalleVenta.Text = "";
+            txtIdCliente.Text = "";
+            txtIdEmpledo.Text = "";
+            txtFecha.Text = "";
+            txtTipoVenta.Text = "";
+
+        }
     }
 }

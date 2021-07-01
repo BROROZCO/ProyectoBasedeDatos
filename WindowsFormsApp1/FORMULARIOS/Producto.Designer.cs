@@ -203,8 +203,9 @@ namespace WindowsFormsApp1.FORMULARIOS
             this.BTNACTULIZAR.Name = "BTNACTULIZAR";
             this.BTNACTULIZAR.Size = new System.Drawing.Size(129, 38);
             this.BTNACTULIZAR.TabIndex = 4;
-            this.BTNACTULIZAR.Text = "BUSCAR";
+            this.BTNACTULIZAR.Text = "NUEVO";
             this.BTNACTULIZAR.UseVisualStyleBackColor = true;
+            this.BTNACTULIZAR.Click += new System.EventHandler(this.BTNACTULIZAR_Click);
             // 
             // Producto
             // 
